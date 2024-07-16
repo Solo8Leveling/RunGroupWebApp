@@ -26,9 +26,9 @@ namespace RunGroupWebApp.Data
                             ClubCategory = ClubCategory.City,
                             Address = new Address()
                             {
-                                Street = "123 Main St",
-                                City = "Charlotte",
-                                State = "NC"
+                                Street = "Sliczna",
+                                City = "Krakow",
+                                State = "PL"
                             }
                          },
                         new Club()
@@ -39,9 +39,9 @@ namespace RunGroupWebApp.Data
                             ClubCategory = ClubCategory.Endurance,
                             Address = new Address()
                             {
-                                Street = "123 Main St",
-                                City = "Charlotte",
-                                State = "NC"
+                                Street = "Wavel",
+                                City = "Krakow",
+                                State = "PL"
                             }
                         },
                         new Club()
@@ -52,9 +52,9 @@ namespace RunGroupWebApp.Data
                             ClubCategory = ClubCategory.Trail,
                             Address = new Address()
                             {
-                                Street = "123 Main St",
-                                City = "Charlotte",
-                                State = "NC"
+                                Street = "N.Ismayilov",
+                                City = "Baku",
+                                State = "AZE"
                             }
                         },
                         new Club()
@@ -86,9 +86,9 @@ namespace RunGroupWebApp.Data
                             RaceCategory = RaceCategory.Marathon,
                             Address = new Address()
                             {
-                                Street = "123 Main St",
-                                City = "Charlotte",
-                                State = "NC"
+                                Street = "Sliczna",
+                                City = "Krakow",
+                                State = "PL"
                             }
                         },
                         new Race()
@@ -100,9 +100,9 @@ namespace RunGroupWebApp.Data
                             AddressId = 5,
                             Address = new Address()
                             {
-                                Street = "123 Main St",
-                                City = "Charlotte",
-                                State = "NC"
+                                Street = "Sliczna",
+                                City = "Krakow",
+                                State = "PL"
                             }
                         }
                     });
@@ -158,9 +158,9 @@ namespace RunGroupWebApp.Data
                         EmailConfirmed = true,
                         Address = new Address()
                         {
-                            Street = "123 Main St",
-                            City = "Charlotte",
-                            State = "NC"
+                            Street = "Ahmedli",
+                            City = "Baku",
+                            State = "AZE"
                         }
                     };
                     await userManager.CreateAsync(newAppUser, "Coding@1234?");
